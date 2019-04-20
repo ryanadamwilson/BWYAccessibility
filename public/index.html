@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <title>React App</title>
+  </head>
+
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root"></div>
+
+    <form>
+      <div>
+        <label for="firstname">First Name</label>
+        <input id="firstname" name="firstname" type="text" width="60px" />
+      </div>
+      <div>
+        <label for="lastname" style="display: inline-block">Last Name</label>
+        <input id="lastname" name="lastname" type="text" width="60px" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" width="60px" />
+      </div>
+      <div>
+        <button type="submit" onClick="alert('whoo form submitted')" href="#">
+          Submit The Form
+        </button>
+      </div>
+    </form>
+
+    <form style="margin-top: 30px;">
+      <label style="display:block;">
+        <input
+          name="firstname"
+          type="text"
+          title="First Name"
+          placeholder="First Name"
+          width="60px"
+        />
+      </label>
+      <label style="display:block;">
+        <input
+          name="lastname"
+          type="text"
+          title="Last Name"
+          placeholder="Last Name"
+          width="60px"
+        />
+      </label>
+      <label style="display:block;">
+        <input
+          title="Email"
+          name="email"
+          type="email"
+          placeholder="Email"
+          width="60px"
+        />
+      </label>
+      <div>
+        <button
+          type="submit"
+          onClick="alert('whoo form submitted')"
+          style="font-size: 12px"
+          href="#"
+        >
+          Submit The Form
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
